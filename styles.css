@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/assets/images/backgruound1.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(7, 99, 19, 0.5);
+}
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 3px solid rgb(130, 216, 44);
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transform:  all 300ms;
+}
+.caja__trasera button:hover {
+    background-color: white;
+    color: black
+}
+/*Formularios*/
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+}
+.select_user{
+    position: relative;
+    align-items: normal;
+}
+.contenedor__login-register p{
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background-color: rgb(140, 235, 154);
+    position: absolute;
+    border-radius: 20px;
+}
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(9, 78, 24);
+}
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+    border-radius: 20px;
+}
+.contenedor__login-register button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: 3px solid rgb(37, 70, 4);
+    background: rgba(255, 255, 255, 0.651);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+    transform:  all 300ms;
+    border-radius: 20px;
+}
+.contenedor__login-register button:hover {
+    background-color: rgb(15, 109, 12);
+    color: rgb(255, 255, 255)
+}
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+.formulario__register{
+    display: none;
+}
