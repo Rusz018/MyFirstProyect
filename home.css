@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/assets/images/backgruound1.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background: #8ae28a;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.logo{
+    font-size: 3rem;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.navbar a{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 500;
+    transition: 0.3 ease;
+    border-bottom: 3px transparent;
+}
