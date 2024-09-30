@@ -28,7 +28,7 @@ html{
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    background: #8ae28a;
+    background: #b9f0b9;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -36,8 +36,8 @@ html{
     z-index: 5;
 }
 .logo{
-    font-size: 3rem;
-    color: white;
+    font-size: 3.5rem;
+    color: rgb(9, 54, 12);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3 ease;
@@ -45,10 +45,25 @@ html{
 .logo:hover{
     transform: scale(1.1);
 }
-.navbar a{
-    font-size: 1.8rem;
-    color: white;
+.navbar i{
+    font-size: 2.0rem;
+    color: rgb(9, 53, 19);
+    margin-left: 4rem;
     font-weight: 500;
     transition: 0.3 ease;
-    border-bottom: 3px transparent;
+    border-bottom: 3px green;
+    cursor: pointer;
+}
+.navbar i:hover{
+    transform: scale(1.5);
+}
+.btn-posteo i{
+ 
+    font-size: 4rem;
+    color: rgb(7, 87, 19);
+    margin-left: 4rem;
+    font-weight: 450;
+    transition: 0.3 ease;
+    border-bottom: 3px 0, 0, green;
+    cursor: pointer;
 }
